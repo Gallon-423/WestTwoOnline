@@ -27,5 +27,5 @@ fun main() {
     for (i in 1 until 10) {   // i in [1, 10) 排除了 10
         print("$i ")
     }
-    println("")
+    println("")//Nothing...
 }
