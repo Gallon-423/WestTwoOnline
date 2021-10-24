@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Kotlin_Study/Kotlin_Study.iml" filepath="$PROJECT_DIR$/Kotlin_Study/Kotlin_Study.iml" />
+      <module fileurl="file://$PROJECT_DIR$/W2Online.iml" filepath="$PROJECT_DIR$/W2Online.iml" />
+      <module fileurl="file://$PROJECT_DIR$/first-Appraisal/first-Appraisal.iml" filepath="$PROJECT_DIR$/first-Appraisal/first-Appraisal.iml" />
+    </modules>
+  </component>
+</project>
