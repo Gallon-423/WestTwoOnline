@@ -15,7 +15,7 @@ fun main() {
 
     for (i in 1..4) print("$i ") // 输出“1234”
     println("")
-    for (i in 4..1) print("$i ") // 什么都不输出
+    for (i in 4 downTo 1) print("$i ") // 什么都不输出
     println("")
     // 使用 step 指定步长
     for (i in 1..4 step 2) print("$i ") // 输出“13”
