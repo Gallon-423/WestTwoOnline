@@ -1,4 +1,4 @@
-package Java;
+package Java_1;
 
 public class BlackCat extends Cat{
 

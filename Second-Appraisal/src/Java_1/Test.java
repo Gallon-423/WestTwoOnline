@@ -1,4 +1,4 @@
-package Java;
+package Java_1;
 
 import java.time.LocalDate;
 import java.util.ArrayList;
@@ -14,7 +14,7 @@ public class Test {
         cs[1]=new Customer("Sam",7,LocalDate.of(2021,10,30));
         cs[2]=new Customer("Mary",3,LocalDate.of(2021,10,31));
         cs[3]=new Customer("Gallon",1,LocalDate.of(2021,10,31));
-        cs[4]=new Customer("Lucky",4,LocalDate.of(2021,12,5));
+        cs[4]=new Customer("Lucky",4,LocalDate.of(2021,11,1));
         cs[5]=new Customer("Jack",8,LocalDate.of(2021,12,6));
         cs[6]=new Customer("Jack",12,LocalDate.of(2021,12,6));
         cs[7]=new Customer("Kyle",6,LocalDate.of(2021,12,7));
@@ -41,7 +41,7 @@ public class Test {
         //以下创建一个MyCatCafe
         MyCatCafe myCatCafe=new MyCatCafe(cats,customers,2000);
         //测试purchase
-        System.out.println("买入两只猫：");
+        System.out.println("测试买入两只猫：");
         System.out.println("当前猫咖余额："+myCatCafe.getMoney());
         myCatCafe.purchase(buyExample0);
         System.out.println("买入一只橙猫");
@@ -51,7 +51,7 @@ public class Test {
         System.out.println("当前猫咖余额："+myCatCafe.getMoney());
         System.out.println("————————————————————————————————————————————————————————————————");
         //测试entertain
-        System.out.println("招待9个客人:");
+        System.out.println("测试招待9个客人:");
         System.out.println("当前猫咖余额："+myCatCafe.getMoney());
         for (int i = 0; i < 9; i++) {
             myCatCafe.entertain(cs[i]);

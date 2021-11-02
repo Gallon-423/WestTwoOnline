@@ -1,4 +1,4 @@
-package Java;
+package Java_1;
 
 public abstract class  Cat {
     protected String name;

@@ -1,4 +1,4 @@
-package Java;
+package Java_1;
 
 public class OrangeCat extends Cat{
     boolean isFat;
