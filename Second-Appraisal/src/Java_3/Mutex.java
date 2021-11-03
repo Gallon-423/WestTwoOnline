@@ -12,7 +12,15 @@ public class Mutex {
      * @Description 对方法进行synchronized化，同时通过设置的标志量flag保持输出顺序。
      * @Since version-1.0
      */
-    public synchronized void fun1(int[] a1) throws InterruptedException {
+
+    public synchronized void fun1(int[] a1,int a2,double b) throws InterruptedException {
+        /**
+         * @Description 
+         * @MethodName fun1
+         * @Params [a1, a2, b]
+         * @Types       
+         * @Return void
+         */
         for (int i = 0; i < a1.length; i++) {
             if (flag) {
                 this.wait();

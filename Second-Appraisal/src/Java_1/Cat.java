@@ -1,6 +1,7 @@
 package Java_1;
 
 public abstract class  Cat {
+
     protected String name;
     protected int age;
     protected boolean gender;
@@ -12,7 +13,6 @@ public abstract class  Cat {
         this.gender = gender;
         this.price = price;
     }
-
     @Override
     public String toString() {
         String gen=gender?"公猫":"母猫";

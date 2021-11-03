@@ -24,6 +24,7 @@ public class Test {
                 e.printStackTrace();
             }
         },"t1");
+
         Thread t2=new Thread(()->{
             try {
                 mutexUtil.fun2(a2);
