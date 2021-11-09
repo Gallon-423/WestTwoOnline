@@ -1,5 +1,11 @@
 package Java_1;
-
+/**
+ * @Author Gallon
+ * @ClassName Cat
+ * @Package Java_1
+ * @Description
+ * @Time 2021-11-03,周三 21:21
+ */
 public abstract class  Cat {
 
     protected String name;
@@ -38,6 +44,7 @@ public abstract class  Cat {
     }
 
     public void setAge(int age) throws Exception {
+
         if(age <0) throw new Exception("猫的年龄不能是负数！");
         this.age = age;
     }
