@@ -1,5 +1,11 @@
 package Java_3;
-
+/**
+ * @Author Gallon
+ * @ClassName RegexUtil
+ * @Package Java_3
+ * @Description
+ * @Time 2021-11-04,周四 08:50
+ */
 public class RegexUtil {
     static String regex_en="^[a-zA-Z0-9_-]+@[a-zA-Z0-9_-]+(\\.[a-zA-Z0-9_-]+)+$";
     //不允许邮箱名出现中文。
